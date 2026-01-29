@@ -10,8 +10,8 @@ workflows:
         # тут мають лежати APPSTORE_ISSUER_ID, APPSTORE_KEY_ID, APPSTORE_P8, APPLE_EMAIL
         - appstore-connect
       vars:
-        IOS_BUNDLE_ID: com.gaikalovaproj.app
-        APP_NAME: Bountiful Life
+        IOS_BUNDLE_ID: com.voloshchukproj.app
+        APP_NAME: Eggy Ways
 
     scripts:
       - name: Print working dir & contents
